@@ -6,6 +6,6 @@
                 "I want to be able to look up the meaning of unusual and impressive words"},
         cardNumber = "#123"
 )
-package serentity.tutorial.features.navigation;
+package serenity.tutorial.features.navigation;
 
 import net.thucydides.core.annotations.Narrative;

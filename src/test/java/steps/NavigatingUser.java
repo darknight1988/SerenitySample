@@ -1,10 +1,12 @@
 package steps;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Step;
-import serentity.tutorial.ui.CurrentPage;
-import serentity.tutorial.ui.EbayHomePage;
+import serenity.tutorial.ui.CurrentPage;
+import serenity.tutorial.ui.EbayHomePage;
 
 public class NavigatingUser {
 
@@ -17,6 +19,7 @@ public class NavigatingUser {
 	}
 
 	@Step
+	
 	public void shouldSeePageTittleContaining(String expectedTitle) {
 		String test = currentPage.getTitle();
 		System.out.println(test);

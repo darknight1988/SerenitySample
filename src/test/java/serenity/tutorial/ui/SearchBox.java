@@ -1,4 +1,4 @@
-package serentity.tutorial.ui;
+package serenity.tutorial.ui;
 
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;

@@ -1,15 +1,15 @@
-package serentity.tutorial.tasks;
+package serenity.tutorial.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
+import serenity.tutorial.ui.SearchBox;
+
 import org.openqa.selenium.Keys;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static org.openqa.selenium.Keys.ENTER;
-
-import serentity.tutorial.ui.SearchBox;
 
 public class Search implements Task {
 

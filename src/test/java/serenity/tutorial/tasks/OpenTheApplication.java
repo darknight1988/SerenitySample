@@ -1,10 +1,10 @@
-package serentity.tutorial.tasks;
+package serenity.tutorial.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
-import serentity.tutorial.ui.GoogleSearchPage;
+import serenity.tutorial.ui.GoogleSearchPage;
 
 public class OpenTheApplication implements Task {
 

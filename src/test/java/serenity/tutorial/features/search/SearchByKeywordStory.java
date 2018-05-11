@@ -1,4 +1,4 @@
-package serentity.tutorial.features.search;
+package serenity.tutorial.features.search;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
@@ -7,12 +7,13 @@ import net.serenitybdd.screenplay.questions.page.TheWebPage;
 import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import serenity.tutorial.tasks.OpenTheApplication;
+import serenity.tutorial.tasks.Search;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import serentity.tutorial.tasks.OpenTheApplication;
-import serentity.tutorial.tasks.Search;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;

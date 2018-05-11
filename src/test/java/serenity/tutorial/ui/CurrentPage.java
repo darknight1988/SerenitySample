@@ -1,4 +1,4 @@
-package serentity.tutorial.ui;
+package serenity.tutorial.ui;
 
 import net.serenitybdd.core.pages.PageObject;
 

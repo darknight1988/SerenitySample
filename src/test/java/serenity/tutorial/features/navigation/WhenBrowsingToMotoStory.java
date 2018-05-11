@@ -1,4 +1,4 @@
-package serentity.tutorial.features.navigation;
+package serenity.tutorial.features.navigation;
 
 
 import org.junit.Before;
@@ -21,14 +21,13 @@ public class WhenBrowsingToMotoStory {
 	WebDriver browser;
 	
 	@Before
-	
-	public void setup()
-	{
-	
-	    browser.manage().window().maximize();
-	}
+	// public void setup() {
+	// browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	// browser.manage().window().maximize();
+	// }
 	
 	@Test
+	
 	public void shouldBeAbleToNavigateToMotor() {
 		//Give
 		mark.isOnHomePage();
